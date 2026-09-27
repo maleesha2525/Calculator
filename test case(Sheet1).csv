@@ -1,0 +1,11 @@
+﻿Test Case ID,Operation,Input Values,Expected Output,Actual Output,Status,Remarks/Bug Fixes
+TC01,Addition,"2, 4",6,6,Pass,-
+TC02,Subtraction,"10, 3",7,7,Pass,-
+TC03,Multiplication,"5, 6",30,30,Pass,-
+TC04,Division,"8, 2",4,4,Pass,-
+TC05,Division,"5, 0",Error message,Crashed,Fail,Fixed in v2
+TC06,Addition,"-3, 7",4,4,Pass,-
+TC07,Subtraction,"-5, -2",-3,-3,Pass,-
+TC08,Multiplication,"0, 9",0,0,Pass,-
+TC09,Division,"-12, 3",-4,-4,Pass,-
+TC10,Complex,(2+3) × 4,20,20,Pass,-
